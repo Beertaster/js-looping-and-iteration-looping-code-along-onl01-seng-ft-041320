@@ -1,11 +1,10 @@
 // Code your solutions in this file
-function writeCards(arr, str) {
-  const newArray = [];
-  for (let i = 0; i < arr.length; i++) {
-    newArray.push('Thank you, ${arr[i]}, for the wonderful ${str} gift!');
+function writeCards (array , string){
+  const newArray = []
+  for (let i = 0; i < array.length; i++){
+    newArray.push(`Thank you, ${array[i]}, for the wonderful ${string} gift!`);
   }
-  return newArray;
-  
+  return newArray
 }
 function countDown(posint) {
   while(posint >= 0) {
